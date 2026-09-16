@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9921011-fe63-4480-a667-b9c328f96627" name="Changes" comment="">
-      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/index.html" afterDir="false" />
-      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/index.js" afterDir="false" />
-      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/package.json" afterDir="false" />
-      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/script.js" afterDir="false" />
-      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="c9921011-fe63-4480-a667-b9c328f96627" name="Changes" comment="Initial project setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$APPLICATION_HOME_DIR$/EasyOrder" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AliMcOthman"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AliMcOthman/EasyOrder.git",
+    "accountId": "a7c705a0-3dbe-4294-8f88-73ed3e6f7c31"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -43,6 +49,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
@@ -71,11 +78,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789558723470</updated>
-      <workItem from="1789558724447" duration="1449000" />
+      <workItem from="1789558724447" duration="1863000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial project setup">
+      <option name="closed" value="true" />
+      <created>1789560569204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1789560569204</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial project setup">
+      <option name="closed" value="true" />
+      <created>1789560584639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789560584639</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial project setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial project setup" />
   </component>
 </project>
