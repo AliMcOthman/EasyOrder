@@ -2,9 +2,316 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+<!-- ==================== NAVBAR ==================== -->
+<section class="navbar">
+    <div class="container">
+
+        <div class="logo">
+            <a href="#home" title="Logo">
+                <img src="images/logo.png"
+                     alt="Restaurant Logo"
+                     class="img-responsive">
+            </a>
+        </div>
+
+        <div class="menu text-right">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#categories">Categories</a>
+                </li>
+
+                <li>
+                    <a href="#foods">Foods</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+</section>
+
+
+<!-- ==================== HOME ==================== -->
+<section id="home" class="food-search text-center">
+    <div class="container">
+
+        <h2>Welcome to our Restaurant</h2>
+
+        <form id="search-form">
+            <input type="search"
+                   id="search-input"
+                   name="search"
+                   placeholder="Search for Food..">
+
+            <input type="submit"
+                   value="Search"
+                   class="btn btn-primary">
+        </form>
+
+    </div>
+</section>
+
+
+<!-- ==================== CATEGORIES ==================== -->
+<section id="categories" class="categories">
+
+    <div class="container">
+
+        <h2 class="text-center">Explore Foods</h2>
+
+        <a href="#foods">
+            <div class="box-3 float-container">
+                <img src="images/pizza.jpg"
+                     alt="Pizza"
+                     class="img-responsive img-curve">
+
+                <h3 class="float-text ">Pizza</h3>
+            </div>
+        </a>
+
+        <a href="#foods">
+            <div class="box-3 float-container">
+                <img src="images/doener.jpg"
+                     alt="Döner"
+                     class="img-responsive img-curve">
+
+                <h3 class="float-text ">Döner</h3>
+            </div>
+        </a>
+
+        <a href="#foods">
+            <div class="box-3 float-container">
+                <img src="images/burger.jpg"
+                     alt="Burger"
+                     class="img-responsive img-curve">
+
+                <h3 class="float-text ">Burger</h3>
+            </div>
+        </a>
+
+
+
+        <div class="clearfix"></div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== FOOD MENU ==================== -->
+<section id="foods" class="food-menu">
+
+    <div class="container">
+
+        <h2 class="text-center">Food Menu</h2>
+
+        <!--
+            Die Produkte werden dynamisch
+            mit JavaScript und AJAX eingefügt.
+        -->
+        <div id="food-menu-container"></div>
+
+        <div class="clearfix"></div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== ORDER ==================== -->
+<section id="order" class="food-search text-center">
+
+    <div class="container">
+
+        <h2 class="text-white">
+            Fill this form to confirm your order.
+        </h2>
+
+
+        <form id="order-form" class="order">
+
+            <!-- Selected Food -->
+            <fieldset>
+
+                <h3 class="order-section-title">Selected Food</h3>
+
+                <div class="food-menu-img">
+
+                    <img id="order-image"
+                         src=""
+                         alt="Selected Food"
+                         class="img-responsive img-curve">
+
+                </div>
+
+
+                <div class="food-menu-desc">
+
+                    <h3 id="order-name">
+                        Selected Food
+                    </h3>
+
+                    <p id="order-price" class="food-price">
+                        0 €
+                    </p>
+
+
+                    <div class="order-label">
+                        Quantity
+                    </div>
+
+                    <input type="number"
+                           id="order-quantity"
+                           name="qty"
+                           class="input-responsive"
+                           value="1"
+                           min="1"
+                           required>
+
+                </div>
+
+            </fieldset>
+
+
+            <!-- Delivery Details -->
+            <fieldset>
+
+                <h3 class="order-section-title">Delivery Details</h3>
+
+
+                <div class="order-label">
+                    Full Name
+                </div>
+
+                <input type="text"
+                       name="full-name"
+                       placeholder="E.g. Max Mustermann"
+                       class="input-responsive"
+                       required>
+
+
+                <div class="order-label">
+                    Phone Number
+                </div>
+
+                <input type="tel"
+                       name="contact"
+                       placeholder="E.g. 017612345678"
+                       class="input-responsive"
+                       required>
+
+
+                <div class="order-label">
+                    Email
+                </div>
+
+                <input type="email"
+                       name="email"
+                       placeholder="E.g. example@email.com"
+                       class="input-responsive"
+                       required>
+
+
+                <div class="order-label">
+                    Address
+                </div>
+
+                <textarea name="address"
+                          rows="10"
+                          placeholder="E.g. Street, City, Country"
+                          class="input-responsive"
+                          required></textarea>
+
+
+                <input type="submit"
+                       value="Confirm Order"
+                       class="btn btn-primary">
+
+            </fieldset>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== CONTACT ==================== -->
+<section id="contact" class="social">
+
+    <div class="container text-center">
+
+        <h2>Contact</h2>
+
+        <ul>
+
+            <li>
+                <a href="#">
+                    <img src="https://img.icons8.com/fluent/50/000000/facebook-new.png">
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png">
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="https://img.icons8.com/fluent/48/000000/twitter.png">
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== FOOTER ==================== -->
+<section class="footer">
+
+    <div class="container text-center">
+
+        <p>
+            All rights reserved.
+            Designed By
+            <a href="#">Alfa-training</a>
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== JAVASCRIPT ==================== -->
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="script.js"></script>
 
 </body>
 </html>
+

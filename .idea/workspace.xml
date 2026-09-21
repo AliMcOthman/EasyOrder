@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9921011-fe63-4480-a667-b9c328f96627" name="Changes" comment="Initial project setup" />
+    <list default="true" id="c9921011-fe63-4480-a667-b9c328f96627" name="Changes" comment="Initial project setup">
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/categories.html" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/category-foods.html" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/css/style.css" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/food-search.html" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/foods.html" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/get_products.php" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/images/burger.jpg" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/images/doener.jpg" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/images/pasta.jpg" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/images/pizza.jpg" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/images/pommes.jpg" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/images/salat.jpg" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/order.html" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/EasyOrder/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/category-foods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/burger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/doener.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pasta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pizza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pommes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/salat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products.json" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/EasyOrder/.idea/vcs.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/EasyOrder/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/EasyOrder/.idea/workspace.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/EasyOrder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/EasyOrder/index.html" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/EasyOrder/index.html" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/EasyOrder/index.js" beforeDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/EasyOrder/script.js" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/EasyOrder/script.js" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/EasyOrder/style.css" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/EasyOrder/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,30 +54,31 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$APPLICATION_HOME_DIR$/EasyOrder" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AliMcOthman"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AliMcOthman&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AliMcOthman/EasyOrder.git",
-    "accountId": "a7c705a0-3dbe-4294-8f88-73ed3e6f7c31"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AliMcOthman/EasyOrder.git&quot;,
+    &quot;accountId&quot;: &quot;a7c705a0-3dbe-4294-8f88-73ed3e6f7c31&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3JPNQ6heEuerYZWsfwNareWPVeT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,26 +86,40 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.categories.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.foods.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/EasyFood&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\JetBrains\WebStorm 2025.2.4\EasyOrder\images" />
+      <recent name="C:\Program Files\JetBrains\WebStorm 2025.2.4\EasyOrder\css" />
+      <recent name="C:\Program Files\JetBrains\WebStorm 2025.2.4\EasyOrder" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,7 +134,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789558723470</updated>
-      <workItem from="1789558724447" duration="1863000" />
+      <workItem from="1789558724447" duration="7300000" />
+      <workItem from="1789625985786" duration="1762000" />
+      <workItem from="1789638992490" duration="11353000" />
+      <workItem from="1789710792886" duration="1270000" />
+      <workItem from="1789713776695" duration="147000" />
+      <workItem from="1789720659386" duration="273000" />
+      <workItem from="1789720986524" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <option name="closed" value="true" />

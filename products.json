@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Pizza",
+    "price": 8.5,
+    "description": "Pizza mit Tomatensoße und Käse",
+    "image": "images/pizza.jpg"
+  },
+  {
+    "name": "Burger",
+    "price": 7.5,
+    "description": "Burger mit Fleisch, Salat und Tomaten",
+    "image": "images/burger.jpg"
+  },
+  {
+    "name": "Momo",
+    "price": 6.5,
+    "description": "Momos mit Gemüse und Sauce",
+    "image": "images/momo.jpg"
+  }
+]
